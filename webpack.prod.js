@@ -36,6 +36,6 @@ module.exports = merge( common, {
       		disable: false,
       		allChunks: true
     } ),
-    	// new CleanWebpackPlugin();
+    	new CleanWebpackPlugin();
   ]
 });
