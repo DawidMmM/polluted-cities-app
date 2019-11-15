@@ -1,0 +1,41 @@
+{
+  "name": "polluted_cities_app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "homepage": "https://github.com/DawidMmM",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.devServer.js",
+    "build": "webpack -p --config webpack.prod.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "author": "Dawid",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/runtime": "^7.7.2",
+    "autoprefixer": "^9.6.1",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.3.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.1.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "import-glob-loader": "^1.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
+  },
+  "devDependencies": {
+    "@comandeer/eslint-config": "^0.2.1",
+    "eslint": "^6.1.0"
+  }
+}
