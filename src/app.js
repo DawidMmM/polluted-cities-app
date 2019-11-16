@@ -64,10 +64,7 @@ elements.searchInput.addEventListener( 'keydown', ( e ) => {
 	} else if ( e.keyCode === 13 ) {
 		e.preventDefault();
 		searchView.setInputValue();
-
-		if ( !elements.searchButton.hasAttribute( 'disabled' ) ) {
-			controlSearch();
-		}
+		controlSearch();
 	} else if ( e.keyCode === 27 ) {
 		e.target.value = '';
 		autocompleteView.clearAutocomplete();
